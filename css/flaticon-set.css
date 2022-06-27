@@ -1,0 +1,39 @@
+@font-face {
+  font-family: Flaticon;
+  src: url(/fonts/Flaticon.eot);
+  src: url(/fonts/Flaticon.eot?#iefix) format("embedded-opentype"), url(/fonts/Flaticon.woff) format("woff"), url(/fonts/Flaticon.ttf) format("truetype"), url(/fonts/Flaticon.svg#Flaticon) format("svg");
+  font-weight: 400;
+  font-style: normal
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: Flaticon;
+    src: url(/fonts/Flaticon.svg#Flaticon) format("svg")
+  }
+}
+[class*=" flaticon-"]:after, [class*=" flaticon-"]:before, [class^=flaticon-]:after, [class^=flaticon-]:before {
+  font-family: Flaticon;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+.flaticon-target:before {
+  content: "\f114"
+}
+.flaticon-laboratory:before {
+  content: "\f121"
+}
+.flaticon-optimization:before {
+  content: "\f123"
+}
+.flaticon-telephone:before {
+  content: "\f12c"
+}
+.flaticon-email:before {
+  content: "\f12d"
+}

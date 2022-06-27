@@ -1,0 +1,486 @@
+/*!
+ * Font Awesome Pro 5.8.1 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license (Commercial License)
+ */
+.fa, .fal {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1
+}
+
+.fa-lg {
+    font-size: 1.33333em;
+    line-height: .75em;
+    vertical-align: -.0667em
+}
+
+.fa-1x {
+    font-size: 1em
+}
+
+.fa-2x {
+    font-size: 2em
+}
+
+.fa-3x {
+    font-size: 3em
+}
+
+.fa-4x {
+    font-size: 4em
+}
+
+.fa-5x {
+    font-size: 5em
+}
+
+.fa-6x {
+    font-size: 6em
+}
+
+.fa-7x {
+    font-size: 7em
+}
+
+.fa-8x {
+    font-size: 8em
+}
+
+.fa-9x {
+    font-size: 9em
+}
+
+.fa-10x {
+    font-size: 10em
+}
+
+.fa-ul {
+    list-style-type: none;
+    margin-left: 2.5em;
+    padding-left: 0
+}
+
+.fa-ul > li {
+    position: relative
+}
+
+.fa-li {
+    left: -2em;
+    position: absolute;
+    text-align: center;
+    width: 2em;
+    line-height: inherit
+}
+
+@keyframes fa-spin {
+    0% {
+        transform: rotate(0)
+    }
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+.fa-500px:before {
+    content: "\f26e"
+}
+
+.fa-align-center:before {
+    content: "\f037"
+}
+
+.fa-align-left:before {
+    content: "\f036"
+}
+
+.fa-align-right:before {
+    content: "\f038"
+}
+
+.fa-balance-scale:before {
+    content: "\f24e"
+}
+
+.fa-balance-scale-left:before {
+    content: "\f515"
+}
+
+.fa-balance-scale-right:before {
+    content: "\f516"
+}
+
+.fa-bars:before {
+    content: "\f0c9"
+}
+
+.fa-bootstrap:before {
+    content: "\f836"
+}
+
+.fa-box:before {
+    content: "\f466"
+}
+
+.fa-box-alt:before {
+    content: "\f49a"
+}
+
+.fa-box-full:before {
+    content: "\f49c"
+}
+
+.fa-box-heart:before {
+    content: "\f49d"
+}
+
+.fa-chart-area:before {
+    content: "\f1fe"
+}
+
+.fa-chart-bar:before {
+    content: "\f080"
+}
+
+.fa-chart-pie:before {
+    content: "\f200"
+}
+
+.fa-chart-pie-alt:before {
+    content: "\f64e"
+}
+
+.fa-coins:before {
+    content: "\f51e"
+}
+
+.fa-copy:before {
+    content: "\f0c5"
+}
+
+.fa-copyright:before {
+    content: "\f1f9"
+}
+
+.fa-css3:before {
+    content: "\f13c"
+}
+
+.fa-css3-alt:before {
+    content: "\f38b"
+}
+
+.fa-edge:before {
+    content: "\f282"
+}
+
+.fa-envelope:before {
+    content: "\f0e0"
+}
+
+.fa-file:before {
+    content: "\f15b"
+}
+
+.fa-file-alt:before {
+    content: "\f15c"
+}
+
+.fa-file-chart-pie:before {
+    content: "\f65a"
+}
+
+.fa-file-contract:before {
+    content: "\f56c"
+}
+
+.fa-file-image:before {
+    content: "\f1c5"
+}
+
+.fa-file-user:before {
+    content: "\f65c"
+}
+
+.fa-font:before {
+    content: "\f031"
+}
+
+.fa-font-awesome:before {
+    content: "\f2b4"
+}
+
+.fa-font-awesome-alt:before {
+    content: "\f35c"
+}
+
+.fa-font-awesome-logo-full:before {
+    content: "\f4e6"
+}
+
+.fa-h1:before {
+    content: "\f313"
+}
+
+.fa-h2:before {
+    content: "\f314"
+}
+
+.fa-h3:before {
+    content: "\f315"
+}
+
+.fa-hands:before {
+    content: "\f4c2"
+}
+
+.fa-hands-heart:before {
+    content: "\f4c3"
+}
+
+.fa-hard-hat:before {
+    content: "\f807"
+}
+
+.fa-heading:before {
+    content: "\f1dc"
+}
+
+.fa-heart:before {
+    content: "\f004"
+}
+
+.fa-home:before {
+    content: "\f015"
+}
+
+.fa-home-alt:before {
+    content: "\f80a"
+}
+
+.fa-home-heart:before {
+    content: "\f4c9"
+}
+
+.fa-home-lg:before {
+    content: "\f80b"
+}
+
+.fa-home-lg-alt:before {
+    content: "\f80c"
+}
+
+.fa-html5:before {
+    content: "\f13b"
+}
+
+.fa-image:before {
+    content: "\f03e"
+}
+
+.fa-info:before {
+    content: "\f129"
+}
+
+.fa-js:before {
+    content: "\f3b8"
+}
+
+.fa-less:before {
+    content: "\f41d"
+}
+
+.fa-link:before {
+    content: "\f0c1"
+}
+
+.fa-map:before {
+    content: "\f279"
+}
+
+.fa-map-marker:before {
+    content: "\f041"
+}
+
+.fa-map-marker-alt:before {
+    content: "\f3c5"
+}
+
+.fa-marker:before {
+    content: "\f5a1"
+}
+
+.fa-page4:before {
+    content: "\f3d7"
+}
+
+.fa-percent:before {
+    content: "\f295"
+}
+
+.fa-phone:before {
+    content: "\f095"
+}
+
+.fa-pie:before {
+    content: "\f705"
+}
+
+.fa-ring:before {
+    content: "\f70b"
+}
+
+.fa-star:before {
+    content: "\f005"
+}
+
+.fa-stream:before {
+    content: "\f550"
+}
+
+.fa-table:before {
+    content: "\f0ce"
+}
+
+.fa-tags:before {
+    content: "\f02c"
+}
+
+.fa-text-height:before {
+    content: "\f034"
+}
+
+.fa-text-width:before {
+    content: "\f035"
+}
+
+.fa-trophy:before {
+    content: "\f091"
+}
+
+.fa-trophy-alt:before {
+    content: "\f2eb"
+}
+
+.fa-user:before {
+    content: "\f007"
+}
+
+.fa-user-alt:before {
+    content: "\f406"
+}
+
+.fa-user-chart:before {
+    content: "\f6a3"
+}
+
+.fa-user-hard-hat:before {
+    content: "\f82c"
+}
+
+.fa-user-md:before {
+    content: "\f0f0"
+}
+
+@font-face {
+    font-family: "Font Awesome 5 Brands";
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
+    src: url(/fonts/fa-brands-400.eot);
+    src: url(/fonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(/fonts/fa-brands-400.woff2) format("woff2"), url(/fonts/fa-brands-400.woff) format("woff")
+}
+
+@font-face {
+    font-family: "Font Awesome 5 Pro";
+    font-style: normal;
+    font-weight: 300;
+    font-display: auto;
+    src: url(/fonts/fa-light-300.eot);
+    src: url(/fonts/fa-light-300.eot?#iefix) format("embedded-opentype"), url(/fonts/fa-light-300.woff2) format("woff2"), url(/fonts/fa-light-300.woff) format("woff")
+}
+
+.fal {
+    font-weight: 300
+}
+
+@font-face {
+    font-family: "Font Awesome 5 Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
+    src: url(/fonts/fa-regular-400.eot);
+    src: url(/fonts/fa-regular-400.eot?#iefix) format("embedded-opentype"), url(/fonts/fa-regular-400.woff2) format("woff2"), url(/fonts/fa-regular-400.woff) format("woff")
+}
+
+.fal {
+    font-family: "Font Awesome 5 Pro"
+}
+
+@font-face {
+    font-family: "Font Awesome 5 Pro";
+    font-style: normal;
+    font-weight: 900;
+    font-display: auto;
+    src: url(/fonts/fa-solid-900.eot);
+    src: url(/fonts/fa-solid-900.eot?#iefix) format("embedded-opentype"), url(/fonts/fa-solid-900.woff2) format("woff2"), url(/fonts/fa-solid-900.woff) format("woff")
+}
+
+.fa {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900
+}
+
+/*!
+* @package IcoFont
+* @version 1.0.1
+* @author IcoFont https://icofont.com
+* @copyright Copyright (c) 2015 - 2020 IcoFont
+* @license - https://icofont.com/license/
+*/
+@font-face {
+    font-family: IcoFont;
+    font-weight: 400;
+    font-style: Regular;
+    src: url(/fonts/icofont.woff2) format("woff2"), url(/fonts/icofont.woff) format("woff")
+}
+
+[class*=" icofont-"], [class^=icofont-] {
+    font-family: IcoFont !important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    line-height: 1;
+    -webkit-font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased
+}
+
+@-webkit-keyframes icofont-spin {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes icofont-spin {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}

@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="HSE SERVICE">
+
+    <!-- ========== Page Title ========== -->
+    <title>Паспорта безопасности MSDS</title>
+
+    <!-- ========== Favicon Icon ========== -->
+    <link rel="shortcut icon" href="img/HSEService_logo.png" type="image/x-icon">
+
+    <!-- ========== Start Stylesheet ========== -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/flaticon-set.css" rel="stylesheet" />
+    <link href="css/animate.css" rel="stylesheet" />
+    <link href="css/bootsnav.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet" />
+    <!-- ========== End Stylesheet ========== -->
+
+</head>
+
+<body>
+
+<!-- Preloader Start -->
+<div id="site-preloader" class="site-preloader">
+    <div class="loader-wrap">
+        <div class="ring">
+            <span></span>
+        </div>
+        <h2>HSE SERVICE</h2>
+    </div>
+</div>
+<!-- Preloader Ends -->
+
+<!-- Header
+============================================= -->
+<header id="home">
+
+    <!-- Start Navigation -->
+    <nav class="navbar navbar-default navbar-sticky bootsnav">
+
+        <div class="container-full">
+
+            <!-- Start Atribute Navigation -->
+            <div class="attr-nav">
+                <ul>
+                    <li ><a href="msds.html">УКР</a></li>
+                </ul>
+            </div>
+            <!-- End Atribute Navigation -->
+
+            <!-- Start Header Navigation -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index_ru.html">
+                    <img src="img/HSEService_logo.png" class="logo" alt="Logo"> HSE SERVICE
+                </a>
+            </div>
+            <!-- End Header Navigation -->
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="nav navbar-nav navbar-center" data-in="fadeInDown" data-out="fadeOutUp">
+                    <li><a href="index_ru.html" >Главная</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Услуги</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="requirements_ru.html" >Требования по охране труда</a></li>
+                            <li><a href="practices_ru.html" >Лучшие практики</a></li>
+                            <li><a href="msds_ru.html" >Паспорта безопасности MSDS</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about-us_ru.html" >Про нас</a></li>
+                    <li><a href="contact_ru.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Side Menu -->
+
+    <!-- End Navigation -->
+
+</header>
+<!-- End Header -->
+
+<!-- Start Breadcrumb
+============================================= -->
+<div class="breadcrumb-area bg-gray text-center shadow dark text-light bg-cover" style="background-image: url(img/background.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <h1>Паспорта безопасности MSDS/SDS</h1>
+                <ul class="breadcrumb">
+                    <li><a href="index_ru.html"><i class="fal fa-home"></i> Главная</a></li>
+                    <li class="active">Паспорта безопасности MSDS</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Breadcrumb -->
+
+
+<!-- Star Services Details Area
+    ============================================= -->
+<div class="services-details-area default-padding">
+    <div class="container">
+        <div class="services-details-items">
+            <div class="row">
+                <div class="col-lg-4 services-sidebar order-last order-lg-first">
+                    <!-- Single Widget -->
+                    <div class="single-widget quick-contact ">
+                        <img src="img/msds_example-min.png" alt="Thumb">
+                        <div class="content">
+                            <a style="color: white" href="tel:380673472274">
+                                <i class="flaticon-telephone"></i>
+                                <h2>(067) 347 2274</h2>
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- End Single Widget -->
+                    <div class="contact-box">
+                        <div class="form-items">
+                            <h5>Запрос на оценку оформления</h5>
+                            <form action="mail/contact.php" method="POST" class="contact-form">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <input class="form-control" id="name" name="name" placeholder="Имя" type="text">
+                                            <span class="alert-error"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input class="form-control" id="email" name="email" placeholder="Email" type="email">
+                                            <span class="alert-error"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input class="form-control" id="phone" name="phone" placeholder="Телефон" type="text">
+                                            <span class="alert-error"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group comments">
+                                            <textarea class="form-control" id="comments" name="comments"
+                                                      placeholder="Наименование вещества/продукта. Другая информация/комментарии."></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <button type="submit" name="submit" id="submit">
+                                            Отправить
+                                        </button>
+                                    </div>
+                                </div>
+                                <!-- Alert Message -->
+                                <div class="col-lg-12 alert-notification">
+                                    <div id="message" class="alert-msg"></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+
+                    <!-- Single Widget -->
+                    <div class="single-widget brochure">
+                        <h4 class="widget-title">Пример паспорта</h4>
+                        <ul>
+                            <li><a href="sds_example.pdf"><i class="fal fa-download"></i> Скачать паспорт MSDS/SDS</a></li>
+                        </ul>
+                    </div>
+                    <!-- End Single Widget -->
+
+                </div>
+
+
+                <div class="col-lg-8 services-single-content">
+                    <img src="img/msds_banner-min.jpg" alt="Thumb">
+
+                    <h2>Паспорта безопасности на химическое вещество MSDS/SDS</h2>
+                    <p>
+                        Компания HSE SERVICE предлагет услуги по оформлению и управлению паспортами безопасности MSDS/SDS в соответствии с международными требованиями REACH и CLP.
+                        Работаем с международными перевозчиками.
+                    </p>
+                    <div class="features">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="icon">
+                                    <i class="flaticon-laboratory"></i>
+                                </div>
+                                <div class="content">
+                                    <h4>Разработка и оформление паспортов безопасности MSDS/SDS на химическое вещество.</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="icon">
+                                    <i class="flaticon-optimization"></i>
+                                </div>
+                                <div class="content">
+                                    <h4>Проверка паспортов и их адаптация к требованиям регламентов REACH (CLP).</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p>
+                        Паспорт безопасности химической вещества (продукта, материала) (англ. Material safety data sheet — MSDS)
+                        — сводный документ, включающий в себя информацию об опасностях продукта и советы о мерах безопасности.
+                        Считается важной частью документации на химическую продукцию и используется для предоставления
+                        правдивой информации заказчикам вещества.
+                    </p>
+                    <p>
+                        Паспорт является обязательным при осуществлении экспортно-импортных операций с европейскими странами,
+                        сертификации и при получении других документов.
+                        Данные паспортов безопасности комплектуются в соответствии с требованиями национального,
+                        европейского и международного законодательства:
+                    </p>
+                    <ul>
+                        <li>ISO 11014: 2009 «Safety data sheet for chemical products».</li>
+                        <li>Постановление ЕС № 1272/2008.</li>
+                        <li>Регламент ЕС 1907/2006 REACH.</li>
+                    </ul>
+                    <p>
+                    </p>
+                    <p>
+                        В соответствии с данным документом, химические вещества смогут попасть на рынок ЕС только
+                        в случае их заблаговременной регистрации. В случае если химическое вещество или препарат
+                        значится как опасный, то перевозчику необходимо подготовить и предъявить соответствующий
+                        документ, составленный согласно условиям REACH.
+                    </p>
+                    <p>
+                        За это время мы сотрудничали по подготовке паспортов безопасности MSDS с
+                        различными компаниями Украины, среди которых:
+                    </p>
+                    <ul>
+                        <li>производители строительных материалов,</li>
+                        <li>производители игрушек,</li>
+                        <li>оборудование с магнитными свойствами,</li>
+                        <li>Производители лако-красочной продукции, фармации, удобрений, изделий из дерева и т.д.</li>
+                    </ul>
+                    <p>
+                    </p>
+                    <h4>Гарантируем качественное оформление паспортов безопасности и отсутствие претензий от клиентов!
+                    </h4>
+
+                    <!-- Start Services Area
+    ============================================= -->
+                    <div class="services-area bg-fixed services-style-four  bottom-less" style="margin-bottom: 0">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 offset-lg-3">
+                                    <div class="heading-center text-center">
+                                        <!--                    <h5>What we do</h5>-->
+                                        <h2>Наши преимущества</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <!-- Single Itme -->
+                                <div class="services-style-four col-lg-4 col-md-6">
+                                    <div class="item">
+                                        <h4><a href="#">Гибкие цены</a></h4>
+                                        <p>
+                                            Стоимость нашей работы соответствует качеству. Мы всегда найдем подходящие условия взаимодействия.
+                                            Мы строим долгосрочные отношения с нашими клиентами, поэтому стоимость работ обсуждается.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="services-style-four col-lg-4 col-md-6">
+                                    <div class="item">
+                                        <h4><a href="#">До 3-х рабочих дней</a></h4>
+                                        <p>
+                                            Мы понимаем, что часто паспорта нужны очень быстро. Средний срок изготовления
+                                            паспорта 2 - 3 рабочих дня. При острой необходимости срок может быть сокращен.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="services-stage-four col-lg-4 col-md-6">
+                                    <div class="item">
+                                        <h4><a href="#">Поддержка при использовании</a></h4>
+                                        <p>
+                                            Мы оказываем поддержку по всем вопросам в отношении
+                                            оформленных нами паспортов безопасности после оформления.
+                                            Готовим ответы на вопросы от покупателей, перевозчиков.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="services-style-four col-lg-4 col-md-6">
+                                    <div class="item">
+                                        <h4><a href="#">Сеть контактов по миру</a></h4>
+                                        <p>
+                                            Сеть профильных контактов в Европе и Америке позволяет
+                                            нам оперативно получать информацию о том или ином аспекте использования веществ..
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="services-style-four col-lg-4 col-md-6">
+                                    <div class="item">
+                                        <h4><a href="#">Правильный перевод</a></h4>
+                                        <p>
+                                            Наши переводчики имеют профессиональные компетенции в переводах документации
+                                            связанной с безопасностью и охраной труда. Это важно для корректного перевода паспортов.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="services-stage-four col-lg-4 col-md-6">
+                                    <div class="item">
+                                        <h4><a href="#">Доступ к базам хим.веществ</a></h4>
+                                        <p>
+                                            У нас есть доступ к международным базам хим.веществ. Это позволяет готовить
+                                            максимально качественные документы.
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- Single Itme -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Services us -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Services Details Area -->
+
+
+
+
+
+<!-- Star Footer
+    ============================================= -->
+<footer class="bg-dark text-light">
+    <div class="container">
+        <div class="f-items default-padding">
+            <div class="row">
+                <div class="col-lg-7 col-md-6 item">
+                    <div class="f-item about">
+                        <h4 class="widget-title">Про нас</h4>
+                        <p>
+                            HSE SERVICE — команда специалистов в сфере охраны труда, пожарной безопасности и экологии.
+                            Начали свою деятельность в 2004 году, с оказания услуг объектам в Украине.
+                            Среди наших клинетов были такие компании как Sibelco, НовоГОК, Zeus Ceramica, CCBU, Метинвест и другие.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 item">
+                    <div class="f-item link">
+                        <h4 class="widget-title">Наши услуги</h4>
+                        <ul>
+                            <li>
+                                <a href="requirements_ru.html">Требования по охране труда</a>
+                            </li>
+                            <li>
+                                <a href="practices_ru.html">Лучшие практики</a>
+                            </li>
+                            <li>
+                                <a href="msds_ru.html">Паспорта безопасности MSDS</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 item">
+                    <div class="f-item contact">
+                        <h4 class="widget-title">Наши контакты</h4>
+                        <div class="address">
+                            <ul>
+                                <li>
+                                    <i class="fal fa-map-marker-alt"></i>
+                                    Киев, А.Курчатова 3а
+                                </li>
+                                <li>
+                                    <i class="fal fa-envelope"></i>
+                                    <a href="mailto:contact@hse.com.ua"> contact@hse.com.ua</a>
+                                </li>
+                                <li>
+                                    <i class="fal fa-phone"></i>
+                                    <a href="tel:380673472274"> +38 (067) 347 2274</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="row align-center">
+                <div class="col-lg-4">
+                    <p>&copy; Copyright 2022. Все права зарезервированы</p>
+                </div>
+                <div class="col-lg-4 text-center logo">
+                    <a href="#"><img src="img/HSEService_white_logo.png" alt="Logo"> HSE SERVICE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer-->
+
+<!-- jQuery Frameworks
+============================================= -->
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootsnav.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

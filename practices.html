@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="HSE SERVICE">
+
+    <!-- ========== Page Title ========== -->
+    <title>Кращі практики</title>
+
+    <!-- ========== Favicon Icon ========== -->
+    <link rel="shortcut icon" href="img/HSEService_logo.png" type="image/x-icon">
+
+    <!-- ========== Start Stylesheet ========== -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/flaticon-set.css" rel="stylesheet" />
+    <link href="css/bootsnav.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet" />
+    <!-- ========== End Stylesheet ========== -->
+
+</head>
+
+<body>
+
+<!-- Preloader Start -->
+<div id="site-preloader" class="site-preloader">
+    <div class="loader-wrap">
+        <div class="ring">
+            <span></span>
+        </div>
+        <h2>HSE SERVICE</h2>
+    </div>
+</div>
+<!-- Preloader Ends -->
+
+<!-- Header
+============================================= -->
+<header id="home">
+
+    <!-- Start Navigation -->
+    <nav class="navbar navbar-default navbar-sticky bootsnav">
+
+        <div class="container-full">
+
+            <!-- Start Atribute Navigation -->
+            <div class="attr-nav">
+                <ul>
+                    <li ><a href="practices_ru.html">РУС</a></li>
+                </ul>
+            </div>
+            <!-- End Atribute Navigation -->
+            <!-- Start Header Navigation -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/HSEService_logo.png" class="logo" alt="Logo"> HSE SERVICE
+                </a>
+            </div>
+            <!-- End Header Navigation -->
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="nav navbar-nav navbar-center" data-in="fadeInDown" data-out="fadeOutUp">
+                    <li><a href="index.html" >Головна</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Послуги</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="requirements.html" >Вимоги з охорони праці</a></li>
+                            <li><a href="practices.html" >Кращі практики</a></li>
+                            <li><a href="msds.html" >Паспорти безпеки MSDS</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about-us.html" >Про нас</a></li>
+                    <li><a href="contact.html">Контакти</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div>
+    </nav>
+    <!-- End Side Menu -->
+
+    <!-- End Navigation -->
+</header>
+<!-- End Header -->
+
+<!-- Start Breadcrumb
+============================================= -->
+<div class="breadcrumb-area bg-gray text-center shadow dark text-light bg-cover" style="background-image: url(img/background.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <h1>Кращі практики</h1>
+                <ul class="breadcrumb">
+                    <li><a href="index.html"><i class="fal fa-home"></i> Головна</a></li>
+                    <li class="active">Кращі практики</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Breadcrumb -->
+
+<div class="services-details-area default-padding">
+    <div class="container">
+        <div class="services-details-items">
+            <div class="row">
+                <div class="col-lg-4 services-sidebar order-last order-lg-first">
+                    <!-- Single Widget -->
+                    <div class="single-widget quick-contact " >
+                        <img src="img/zero-min.png" alt="Thumb">
+                        <div class="content">
+                            <a style="color: white" href="tel:380673472274">
+                            <i class="flaticon-telephone"></i>
+                            <h2>(067) 347 2274</h2>
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- End Single Widget -->
+                    <div class="contact-box">
+                        <div class="form-items">
+                            <h5>Питання по кращим практикам</h5>
+                            <form action="mail/contact.php" method="POST" class="contact-form">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <input class="form-control" id="name" name="name" placeholder="Ім'я" type="text">
+                                            <span class="alert-error"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input class="form-control" id="email" name="email" placeholder="Email" type="email">
+                                            <span class="alert-error"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input class="form-control" id="phone" name="phone" placeholder="Телефон" type="text">
+                                            <span class="alert-error"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group comments">
+                                            <textarea class="form-control" id="comments" name="comments"
+                                                      placeholder="Ваше питання."></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <button type="submit" name="submit" id="submit">
+                                            Надіслати
+                                        </button>
+                                    </div>
+                                </div>
+                                <!-- Alert Message -->
+                                <div class="col-lg-12 alert-notification">
+                                    <div id="message" class="alert-msg"></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-8 services-single-content">
+                    <img src="img/practices_banner-min.png" alt="Thumb">
+
+                    <h2>Кращі міжнародні практики з охорони праці</h2>
+                    <p>
+                        Ми готові запропонувати повний аутсорсинг
+                        в області корпоративної безпеки або впровадження окремих міжнародних практик, проєктів та систем.
+                    </p>
+                    <div class="faq-content">
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h4 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Safety Risk assessment - Оцінка ризиків з охорони праці та пожежної безпеки
+                                    </h4>
+                                </div>
+
+                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>
+                                            Оцінка ризиків - це основа сучасного підходу в області HSE (health, safety and environment).
+                                            Ми оцінюємо ризики по міжнародним стандартам, розробляємо дії згідно з підходами ERIC/PD
+                                            по ієрархії контролю ризиків (RCH).
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h4 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Global safety culture - Глобальний проект щодо впровадження культури в області безпеки
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>
+                                            Глобальний комплексний проєкт по впровадженню культури безпеки на підприємстві.
+                                            Індивідуально розробляється з урахуванням особливостей підприємства, вибудовується і
+                                            прищеплюється культура безпеки персоналу. Є найважливішою складовою сучасної безпеки.
+                                            Роботи в галузі культури є найбільш складними і трудомісткими, але дають, найкращі результати
+                                            в галузі охорони праці, пожежної безпеки та екології.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h4 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Complex safety audits - Комплексні аудити з безпеки
+                                    </h4>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>
+                                            Наші експерти проводять комплексні аудити і оформляють детальні звіти щодо виявлених невідповідностей.
+                                            Кожна невідповідність категоризується за ступенем небезпеки і ступенем впливу.
+                                            Ми також допомагаємо розробляти дії щодо усунення невідповідностей.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="heading4">
+                                    <h4 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                        NearMiss - Попередження і раннє виявлення передумов до нещасних випадків
+                                    </h4>
+                                </div>
+                                <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>
+                                            Система NEARMISS життєво необхідна система на будь-яких підприємствах.
+                                            Ми неодноразово зустрічали, невірно впроваджену програму,
+                                            не працювала або була неправильно витлумачена. NEARMISS спрямована на раннє виявлення чинників,
+                                            які можуть призвести до інцидентів в області охорони праці та безпеки.
+                                            Важливою особливості є правильна підтримка цієї програми та відповідна мотивація персоналу.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="heading5">
+                                    <h4 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                        Hazardous energy control. Lockout – Tagout - Контроль небезпечних джерел.
+                                    </h4>
+                                </div>
+                                <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>
+                                            Міжнародна програма з блокування небезпечних джерел під час проведення робіт.
+                                            У США та інших розвинених країнах є обов'язковою для впровадження на законодавчому рівні.
+                                            Наша компанія впроваджує проєкт LOCKOUT - TAGOUT комплексно і системно.
+                                            Також ми виконуємо роботи за наступними напрямками:
+                                        </p>
+                                            <ul>
+                                                <li>Оцінка відповідності міжнародним стандартам;</li>
+                                                <li>Оцінка ризиків;</li>
+                                                <li>Процедури (розробка/перевірка існуючих) з контролю за небезпечними джерелами;</li>
+                                                <li>Процес блокувань;</li>
+                                                <li>Система попереджень і комунікація;</li>
+                                                <li>Безпечне зняття блокувань;</li>
+                                                <li>Ізоляція небезпечних видів енергії;</li>
+                                                <li>Дозвіл на зупинку обладнання і виробничих потужностей;</li>
+                                                <li>Тренінги.</li>
+                                            </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="heading6">
+                                    <h4 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                                        Walk the Talk - Система комунікації з безпеки «Іди та говори»
+                                    </h4>
+                                </div>
+                                <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>
+                                            Програма Walk the Talk є компонентом лідерства в області безпеки
+                                            та спрямована на впровадження і підтримку Культури безпеки.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="heading7">
+                                    <h4 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                                        Safety Behavioral audits - Поведінкові аудити в галузі охорони праці та пожежної безпеки
+                                    </h4>
+                                </div>
+                                <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>
+                                            Поведінкові аудити це оцінка рутинної діяльності співробітників з точки зору безпеки та охорони праці.
+                                            Є найважливішою складовою сучасного підходу до HSE. Safety Behavioral audits -
+                                            обов'язковий компонент побудови культури охорони праці та пожежної безпеки.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="heading10">
+                                    <h4 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                                        BBS – Behavioral basic safety - Підхід, заснований на поведінковій безпеці
+                                    </h4>
+                                </div>
+                                <div id="collapse10" class="collapse" aria-labelledby="heading10" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>
+                                            Сучасний інноваційний підхід до побудови системи щоденної роботи в галузі охорони праці
+                                            та безпеки за участю всього персоналу. Базується на поведінковій безпеці і активному залученні
+                                            саме працівників в процес. Практикується провідними світовими компаніями.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="heading11">
+                                    <h4 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                                        Fire safety and control - Пожежна безпека
+                                    </h4>
+                                </div>
+                                <div id="collapse11" class="collapse" aria-labelledby="heading11" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>
+                                            Ми впроваджуємо міжнародні стандарти в галузі пожежної безпеки.
+                                            Виконуємо аудити системи. Проводимо тренінги та практичні заняття з пожежної безпеки.
+                                            Надаємо консалтинг з підготовки до PLP аудитів. Пропонуємо комплекс послуг в цьому напрямку, що включає в себе наступні розділи:
+                                        </p>
+                                        <ul>
+                                            <li>Оцінка відповідності міжнародним стандартам;</li>
+                                            <li>Оцінка ризиків;</li>
+                                            <li>Аварійні ситуації та евакуаційний план;</li>
+                                            <li>Тренування;</li>
+                                            <li>Пожежні та евакуаційні знаки;</li>
+                                            <li>Контроль за курінням;</li>
+                                            <li>Управління пилом;</li>
+                                            <li>Внутрішнє зберігання;</li>
+                                            <li>Зовнішнє зберігання;</li>
+                                            <li>Евакуаційні виходи;</li>
+                                            <li>Системи попередження;</li>
+                                            <li>Інфраструктура з пожежної безпеки;</li>
+                                            <li>Устаткування по контролю за вогнем;</li>
+                                            <li>Обслуговування та інспекції;</li>
+                                            <li>Тренінги</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="heading12">
+                                    <h4 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                                        Contractors management - Система управління підрядниками
+                                    </h4>
+                                </div>
+                                <div id="collapse12" class="collapse" aria-labelledby="heading12" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>
+                                            Оцінка ризиків в області контролю роботи підрядників і візитерів.
+                                            Включає в себе всі стадії: починаючи від планування залучення підрядників
+                                            до робіт і закінчуючи щоденним контролем процесу. Впровадження міжнародних
+                                            стандартів у цій галузі:
+                                        </p>
+                                        <ul>
+                                            <li>Оцінка відповідності міжнародним стандартам;</li>
+                                            <li>Оцінка ризиків;</li>
+                                            <li>Кваліфікація підрядників;</li>
+                                            <li>Сек'юріті і контроль доступу;</li>
+                                            <li>Комунікація про небезпеки;</li>
+                                            <li>Очікувана взаємодія між компанією і підрядниками;</li>
+                                            <li>Екологічний контроль за діями підрядників;</li>
+                                            <li>Обладнання та пристрої;</li>
+                                            <li>Звітність про інциденти та управління;</li>
+                                            <li>Оцінка рівня підрядників;</li>
+                                            <li>Тренінги</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="heading13">
+                                    <h4 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                                        Fleet management - Управління транспортної безпекою
+                                    </h4>
+                                </div>
+                                <div id="collapse13" class="collapse" aria-labelledby="heading13" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>
+                                            Впровадження практичних інструментів в області безпеки дорожнього руху,
+                                            доставки людей і продукції. Контроль транспортних засобів, перевірка знань водіїв.
+                                            Повний комплекс послуг згідно міжнародних стандартів, розробка політики в галузі
+                                            транспортної безпеки - Fleet management Policy.
+                                            Впроваджуємо і проводимо аудити:
+                                        </p>
+                                        <ul>
+                                            <li>Оцінка відповідності міжнародним стандартам;</li>
+                                            <li>Політика в галузі транспортної безпеки - Fleet management Policy</li>
+                                            <li>Оцінка ризиків;</li>
+                                            <li>Правила системи управління транспортом;</li>
+                                            <li>Кваліфікація водіїв;</li>
+                                            <li>Тренінги для водіїв і оцінка підготовки;</li>
+                                            <li>Інспекція транспортних засобів та превентивне обслуговування;</li>
+                                            <li>Звітність про інциденти та розслідування;</li>
+                                            <li>Вимірювання ефективності і поліпшення;</li>
+                                            <li>Зберігання та видача горючих матеріалів</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="heading14">
+                                    <h4 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
+                                        Traffic route management - Системи управління трафіком
+                                    </h4>
+                                </div>
+                                <div id="collapse14" class="collapse" aria-labelledby="heading14" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>
+                                            Оцінка підприємства з точки зору безпеки пішоходів. Система розділення пішохід
+                                            - транспортний засіб. Впровадження та аудити за наступних систем:
+                                        </p>
+                                        <ul>
+                                            <li>Оцінка відповідності міжнародним стандартам;</li>
+                                            <li>Оцінка ризиків;</li>
+                                            <li>Процедури контролю за трафіком;</li>
+                                            <li>Парковка;</li>
+                                            <li>Маршрути пішоходів;</li>
+                                            <li>Видимість і огляд;</li>
+                                            <li>Контроль чадного газу;</li>
+                                            <li>Обслуговування та інспекції;</li>
+                                            <li>Тренінги</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="heading15">
+                                    <h4 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
+                                        Corporate safety communication - Комунікація з безпеки
+                                    </h4>
+                                </div>
+                                <div id="collapse15" class="collapse" aria-labelledby="heading15" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>
+                                            Вибудовування правильної комунікації, що стосується безпеки на підприємстві.
+                                            Оцінка наявної комунікації, комунікаційних стратегій і методів. Впровадження інструментів,
+                                            що дозволяють уникати "відокремленості" відділу або фахівців охорони праці та пожежної безпеки.
+                                            Є найважливішою ланкою впровадження культури безпеки на підприємстві.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="heading16">
+                                    <h4 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapse16" aria-expanded="false" aria-controls="collapse16">
+                                        Safety KAIZEN - Оцінка кореневих причин і дій з охорони праці та пожежної безпеки, створення FishBones
+                                    </h4>
+                                </div>
+                                <div id="collapse16" class="collapse" aria-labelledby="heading16" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>
+                                            Аналіз кореневих причин інцидентів і невідповідностей, за допомогою інструментів KAIZEN.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="heading17">
+                                    <h4 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapse17" aria-expanded="false" aria-controls="collapse17">
+                                        PPE – Personal protective equipment - ЗІЗ - засоби індивідуального захисту
+                                    </h4>
+                                </div>
+                                <div id="collapse17" class="collapse" aria-labelledby="heading17" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>
+                                            Ми надаємо послуги по правильному підбору засобів індивідуального захисту (ЗІЗ)
+                                            і оцінюємо/надаємо консалтинг по наявній системі ЗІЗ. Робота побудована в
+                                            наступних категоріях:
+                                        </p>
+                                        <ul>
+                                            <li>Відповідність ЗІЗ міжнародним нормам і місцевим законодавчим вимогам;</li>
+                                            <li>Оцінка ризиків;</li>
+                                            <li>Комунікація про небезпеки;</li>
+                                            <li>Очі і обличчя;</li>
+                                            <li>Голова;</li>
+                                            <li>Ноги;</li>
+                                            <li>Руки;</li>
+                                            <li>Захисний спецодяг;</li>
+                                            <li>Захист від ураження електричним струмом;</li>
+                                            <li>Слух;</li>
+                                            <li>Органи дихання;</li>
+                                            <li>Обслуговування та інспекції;</li>
+                                            <li>Тренінги</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="heading18">
+                                    <h4 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapse18" aria-expanded="false" aria-controls="collapse18">
+                                        Safety ToolBox - система навчання ToolBox
+                                    </h4>
+                                </div>
+                                <div id="collapse18" class="collapse" aria-labelledby="heading18" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>
+                                            Наша компанія впроваджує системне використання інструменту ToolBox.
+                                            Дана програма є компонентом підвищення поведінкової складової,
+                                            використовується як допоміжна ланка для впровадження культури з корпоративної безпеки.
+                                            ToolBox може виступати як позитивна міра впливу програми Consequences management -
+                                            Управління наслідками.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="heading19">
+                                    <h4 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapse19" aria-expanded="false" aria-controls="collapse19">
+                                        Consequences management - Управління наслідками
+                                    </h4>
+                                </div>
+                                <div id="collapse19" class="collapse" aria-labelledby="heading19" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>
+                                            Ми готові запропонувати впровадження програми Consequences management -
+                                            Управління наслідками в області корпоративної безпеки. Є невід'ємним інструментом сучасної
+                                            сфери HSE (health, safety and environment) та невід'ємним компонентом успішної побудови корпоративної безпеки.
+                                            Невикористання цієї програми може повністю нівелювати зусилля побудови HSE на підприємстві.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="heading20">
+                                    <h4 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapse20" aria-expanded="false" aria-controls="collapse20">
+                                        First aid - Надання першої допомоги
+                                    </h4>
+                                </div>
+                                <div id="collapse20" class="collapse" aria-labelledby="heading20" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>
+                                            Ми пропонуємо послуги з системного впровадження, організації або проведення аудитів (оцінки) програми надання першої допомоги на підприємстві. Ми слідуємо таким міжнародним правилам:
+                                        </p>
+                                        <ul>
+                                            <li>Перевірка відповідності процедур компанії з прийнятими міжнародними стандартами в цій сфері;</li>
+                                            <li>Оцінка необхідних і достатніх процедур надання першої допомоги;</li>
+                                            <li>Програма надання першої допомоги;</li>
+                                            <li>Список контактів;</li>
+                                            <li>Контроль патогенних організмів, що передаються через кров;</li>
+                                            <li>Устаткування по наданню першої допомоги;</li>
+                                            <li>Ліки та медикаменти;</li>
+                                            <li>Вивчення інцидентів і зберігання записів;</li>
+                                            <li>Обслуговування та інспекції;</li>
+                                            <li>Тренінги та навчання</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="heading21">
+                                    <h4 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapse21" aria-expanded="false" aria-controls="collapse21">
+                                        ISO 45001 (OHSAS 18001)
+                                    </h4>
+                                </div>
+                                <div id="collapse21" class="collapse" aria-labelledby="heading21" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>
+                                            Проводимо повне консультування "під ключ" по розробці і впровадженню системи ISO 45001 (OHSAS 18001).
+                                            Відмінною рисою нашої компанії є впровадження РЕАЛЬНОЇ системи, а не на папері.
+                                            Допомагаємо підготуватися і пройти сертифікаційні і наглядові аудити.
+                                            Маємо практичний досвід роботи з міжнародними сертифікаційними компаніями.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="heading22">
+                                    <h4 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapse22" aria-expanded="false" aria-controls="collapse22">
+                                        Консультування в розслідуванні нещасних випадків
+                                    </h4>
+                                </div>
+                                <div id="collapse22" class="collapse" aria-labelledby="heading22" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>
+                                            Наша компанія готова виступити експертної стороною в області кваліфікованого
+                                            розслідування нещасних випадків, вивчення кореневих причин інциденту,
+                                            правильного оформлення розслідування з точки зору законодавчих вимог і міжнародних практик.
+                                            Проводимо консультування в цих напрямках. Працюємо з державними органами. Розробляємо звітність.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p>
+                    </p>
+                    <p>
+                        Так само, наша компанія має досвід в організації систем мотивації персоналу
+                        для підтримки таких важливих для підприємства проєктів в області HSE.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Star Footer
+    ============================================= -->
+<footer class="bg-dark text-light">
+    <div class="container">
+        <div class="f-items default-padding">
+            <div class="row">
+                <div class="col-lg-7 col-md-6 item">
+                    <div class="f-item about">
+                        <h4 class="widget-title">Про нас</h4>
+                        <p>
+                            HSE SERVICE — команда спеціалістів у сфері охорони праці, пожежної безпеки та екології.
+                            Почали свою діяльність в 2004 році, з надання послуг об'єктам в Україні.
+                            Серед наших клієнтів були такі компанії як Sibelco, НовоГОК, Zeus Ceramica, CCBU, Метінвест та інщі.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 item">
+                    <div class="f-item link">
+                        <h4 class="widget-title">Наші послуги</h4>
+                        <ul>
+                            <li>
+                                <a href="requirements.html">Вимоги з охорони праці</a>
+                            </li>
+                            <li>
+                                <a href="practices.html">Кращі практики</a>
+                            </li>
+                            <li>
+                                <a href="msds.html">Паспорти безпеки MSDS</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 item">
+                    <div class="f-item contact">
+                        <h4 class="widget-title">Наші контакти</h4>
+                        <div class="address">
+                            <ul>
+                                <li>
+                                    <i class="fal fa-map-marker-alt"></i>
+                                    Київ, А.Курчатова 3а
+                                </li>
+                                <li>
+                                    <i class="fal fa-envelope"></i>
+                                    <a href="mailto:contact@hse.com.ua"> contact@hse.com.ua</a>
+                                </li>
+                                <li>
+                                    <i class="fal fa-phone"></i>
+                                    <a href="tel:380673472274"> +38 (067) 347 2274</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="row align-center">
+                <div class="col-lg-4">
+                    <p>&copy; Copyright 2022. Всі права зарезервовано</p>
+                </div>
+                <div class="col-lg-4 text-center logo">
+                    <a href="#"><img src="img/HSEService_white_logo.png" alt="Logo"> HSE SERVICE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer-->
+
+<!-- jQuery Frameworks
+============================================= -->
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootsnav.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

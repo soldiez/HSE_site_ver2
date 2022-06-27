@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="HSE SERVICE">
+
+    <!-- ========== Page Title ========== -->
+    <title>Контакти</title>
+
+    <!-- ========== Favicon Icon ========== -->
+    <link rel="shortcut icon" href="img/HSEService_logo.png" type="image/x-icon">
+
+    <!-- ========== Start Stylesheet ========== -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/flaticon-set.css" rel="stylesheet" />
+    <link href="css/animate.css" rel="stylesheet" />
+    <link href="css/bootsnav.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet" />
+    <!-- ========== End Stylesheet ========== -->
+</head>
+
+<body>
+
+    <!-- Preloader Start -->
+    <div id="site-preloader" class="site-preloader">
+        <div class="loader-wrap">
+            <div class="ring">
+                <span></span>
+            </div>
+            <h2>HSE SERVICE</h2>
+        </div>
+    </div>
+    <!-- Preloader Ends -->
+
+    <!-- Header 
+    ============================================= -->
+    <header id="home">
+
+        <!-- Start Navigation -->
+        <nav class="navbar navbar-default navbar-sticky bootsnav">
+
+            <div class="container-full">
+
+                <!-- Start Atribute Navigation -->
+                <div class="attr-nav">
+                    <ul>
+                        <li ><a href="contact_ru.html">РУС</a></li>
+                    </ul>
+                </div>
+                <!-- End Atribute Navigation -->
+
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/HSEService_logo.png" class="logo" alt="Logo"> HSE SERVICE
+                    </a>
+                </div>
+                <!-- End Header Navigation -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav navbar-center" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li><a href="index.html" >Головна</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Послуги</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="requirements.html" >Вимоги з охорони праці</a></li>
+                                <li><a href="practices.html" >Кращі практики</a></li>
+                                <li><a href="msds.html" >Паспорти безпеки MSDS</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="about-us.html" >Про нас</a></li>
+                        <li><a href="contact.html">Контакти</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>
+        </nav>
+        <!-- End Navigation -->
+
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Breadcrumb 
+    ============================================= -->
+    <div class="breadcrumb-area shadow dark bg-cover text-center text-light" style="background-image: url(img/background.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <h1>Наші контакти</h1>
+                    <ul class="breadcrumb">
+                        <li><a href="index.html"><i class="fal fa-home"></i> Головна</a></li>
+                        <li><a href="contact.html">Контакти</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Breadcrumb -->
+
+    <!-- Star Contact Area
+    ============================================= -->
+    <div class="contact-area default-padding">
+    
+        <div class="container">
+            <div class="contact-items">
+                <div class="row">
+                    <div class="col-lg-7 contact-box">
+                        <div class="form-items">
+                            <h5>Наші контакти</h5>
+                            <form action="mail/contact.php" method="POST" class="contact-form">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <input class="form-control" id="name" name="name" placeholder="Ім'я" type="text">
+                                            <span class="alert-error"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input class="form-control" id="email" name="email" placeholder="Email*" type="email">
+                                            <span class="alert-error"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input class="form-control" id="phone" name="phone" placeholder="Телефон" type="text">
+                                            <span class="alert-error"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group comments">
+                                            <textarea class="form-control" id="comments" name="comments" placeholder="Введи питання *"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <button type="submit" name="submit" id="submit">
+                                            Надіслати
+                                        </button>
+                                    </div>
+                                </div>
+                                <!-- Alert Message -->
+                                <div class="col-lg-12 alert-notification">
+                                    <div id="message" class="alert-msg"></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5 left-info">
+                        <div class="info-items">
+                            <!-- Single Item -->
+                            <div class="item">
+                                <div class="icon">
+                                    <i class="flaticon-location"></i>
+                                </div>
+                                <div class="info">
+                                    <h5>Адреса</h5>
+                                    <p>
+                                        Київ, А.Курчатова 3а
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Single Item -->
+                            <!-- Single Item -->
+                            <div class="item">
+                                <div class="icon">
+                                    <i class="flaticon-telephone"></i>
+                                </div>
+                                <div class="info">
+                                    <h5>Зроби дзвінок</h5>
+                                    <p>
+                                        +38 (067) 347 2274
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Single Item -->
+                            <!-- Single Item -->
+                            <div class="item">
+                                <div class="icon">
+                                    <i class="flaticon-email"></i>
+                                </div>
+                                <div class="info">
+                                    <h5>Надішли листа</h5>
+                                    <p>
+                                        contact@hse.com.ua
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Single Item -->
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact Area -->
+
+    <!-- Star Google Maps
+    ============================================= -->
+    <div class="maps-area">
+        <div class="google-maps">
+<!--         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2135.0948435232613!2d30.622953701194895!3d50.477040936071816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d013c82f6b71%3A0x38000f2369f33dfc!2zM0EsINGD0LsuINCQ0LrQsNC00LXQvNC40LrQsCDQmtGD0YDRh9Cw0YLQvtCy0LAsIDPQkCwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1655922559554!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>-->
+        </div>
+    </div>
+    <!-- End Google Maps -->
+
+    <!-- Star Footer
+     ============================================= -->
+    <footer class="bg-dark text-light">
+        <div class="container">
+            <div class="f-items default-padding">
+                <div class="row">
+                    <div class="col-lg-7 col-md-6 item">
+                        <div class="f-item about">
+                            <h4 class="widget-title">Про нас</h4>
+                            <p>
+                                HSE SERVICE — команда спеціалістів у сфері охорони праці, пожежної безпеки та екології.
+                                Почали свою діяльність в 2004 році, з надання послуг об'єктам в Україні.
+                                Серед наших клієнтів були такі компанії як Sibelco, НовоГОК, Zeus Ceramica, CCBU, Метінвест та інщі.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 item">
+                        <div class="f-item link">
+                            <h4 class="widget-title">Наші послуги</h4>
+                            <ul>
+                                <li>
+                                    <a href="requirements.html">Вимоги з охорони праці</a>
+                                </li>
+                                <li>
+                                    <a href="practices.html">Кращі практики</a>
+                                </li>
+                                <li>
+                                    <a href="msds.html">Паспорти безпеки MSDS</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 item">
+                        <div class="f-item contact">
+                            <h4 class="widget-title">Наші контакти</h4>
+                            <div class="address">
+                                <ul>
+                                    <li>
+                                        <i class="fal fa-map-marker-alt"></i>
+                                        Київ, А.Курчатова 3а
+                                    </li>
+                                    <li>
+                                        <i class="fal fa-envelope"></i>
+                                        <a href="mailto:contact@hse.com.ua"> contact@hse.com.ua</a>
+                                    </li>
+                                    <li>
+                                        <i class="fal fa-phone"></i>
+                                        <a href="tel:380673472274"> +38 (067) 347 2274</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="row align-center">
+                    <div class="col-lg-4">
+                        <p>&copy; Copyright 2022. Всі права зарезервовано</p>
+                    </div>
+                    <div class="col-lg-4 text-center logo">
+                        <a href="index.html"><img src="img/HSEService_white_logo.png" alt="Logo"> HSE SERVICE</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer-->
+
+    <!-- jQuery Frameworks
+    ============================================= -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootsnav.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
